@@ -1,6 +1,6 @@
 FROM alpine
 
-LABEL maintainer Bill Wang <Asia@gmail.com>
+LABEL maintainer Bill Wang <south@gmail.com>
 
 RUN apk --update add git less openssh && \
     rm -rf /var/lib/apt/lists/* && \
