@@ -10,4 +10,3 @@ VOLUME /git
 WORKDIR /git
 
 ENTRYPOINT ["git"]
-CMD ["--help"]
